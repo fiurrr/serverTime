@@ -1,0 +1,33 @@
+body, html {
+    background: #00CC66;
+    font-family: 'Roboto', sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+p {
+    margin:0;
+}
+
+.time-display {
+    background-color: rgba(0, 0, 0, 0.70);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 240px;
+    height: 65px;
+    line-height: 30px;
+    color: white;
+    padding-left: 40px;
+}
+    .time-display p {
+        font-weight: bold;
+    }
